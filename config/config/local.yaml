@@ -1,0 +1,14 @@
+# Local development configuration
+LOG_LEVEL: DEBUG
+LOG_STYLE: readable
+LOG_FILE_PATH: logs/app.log
+APP_NAME: Magnetotelluric 1D Inversion
+APP_VERSION: 1.0.0
+DEBUG: true
+
+# ── Database (secrets in .env) ──────────────────────────────────────
+DB_HOST: 127.0.0.1
+DB_PORT: 1244
+DB_NAME: datamart_analytic
+DB_USER: auser
+DB_PASSWORD: ${DB_PASSWORD}
